@@ -50,7 +50,7 @@ class Home extends Component {
   }
 
   loadMoreItems = () => {
-    const {searchTerm, currentPage } = this.state;
+    const {searchTerm} = this.state;
 
     let endpoint = '';
     this.setState({ loading: true })
