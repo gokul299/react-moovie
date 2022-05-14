@@ -1,0 +1,22 @@
+/* LOAD */
+.loadmorebtn {
+  background: rgb(233, 156, 40);
+  width: 100%;
+  min-height: 50px;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.loadmorebtn p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  padding: 20px;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+.loadmorebtn:hover {
+  opacity: 0.8;
+}

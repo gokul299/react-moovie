@@ -1,0 +1,41 @@
+/* BASE STYLES */
+ body {
+   /* background-color: rgb(159, 159, 159); */
+ }
+
+/* VARIABLES */
+:root {
+  --accent: rgb(233, 156, 40);
+}
+/* HOME PAGE */
+.homepage {
+  margin-bottom: 100px;
+}
+
+.home-grid {
+  font-family: 'Raleway', sans-serif;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000;
+}
+
+
+/* MOVIE PAGES */
+.movie {
+  margin-bottom: 100px;
+}
+
+.movie h1 {
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.movie-grid {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+}

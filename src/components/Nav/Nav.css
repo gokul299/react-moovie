@@ -1,0 +1,39 @@
+/* NAV*/
+
+.navigation {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  background: rgb(233, 156, 40);
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.navigation-content {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 100%;
+}
+
+.navigation-content a:hover,
+.navigation-content p:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.navigation-content p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  float: left;
+  color: #fff;
+  padding-right: 10px;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .navigation-content p {
+    font-size: 16px;
+  }
+}

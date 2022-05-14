@@ -1,0 +1,53 @@
+/* MOVIE INFO BAR*/
+.movieinfobar {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  align-items: center;
+  width: 100%;
+  min-height: 100px;
+  height: auto;
+  background: #1c1c1c;
+  padding: 20px;
+  box-sizing: border-box;
+
+
+}
+
+.movieinfobar-content {
+  max-width: 1280px;
+  width: 100%;
+  margin: .5rem;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+/* .movieinfobar-content-col {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  padding: 10px 20px 0 0;
+} */
+
+.movieinfobar-info {
+  padding: 5px 0 0 10px;
+}
+
+.icon {
+  font-size: 1.5rem;
+  padding: .5rem;
+  color: rgb(233, 156, 40);
+}
+
+@media screen and (max-width: 425px) {
+  .movieinfobar {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .icon {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,19 @@
+/* NOT FOUND */
+
+.notfound h1 {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  margin: 5%;
+}
+
+.home {
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.home:visited {
+  text-decoration: none;
+  color: rgb(233, 156, 40);
+}
